@@ -187,3 +187,5 @@ pylint/
 pylint.log
 pylint.rc
 pylint.d/
+
+ai-coder
