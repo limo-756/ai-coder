@@ -28,6 +28,7 @@ An intelligent coding assistant that can generate code and execute system comman
    pyenv shell 3.10.6
    
    # Create virtual environment
+   # for more details on pyenv virtualenvs visit - https://github.com/pyenv/pyenv-virtualenv
    brew install pyenv-virtualenv
    pyenv virtualenv 3.10.6 ai-coder
    
