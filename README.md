@@ -18,17 +18,24 @@ An intelligent coding assistant that can generate code and execute system comman
 
 2. **Set up Python environment**
    ```bash
+   # install pyenv
+   brew update
+   brew install pyenv
+   # Setup shell env based on shell env - https://github.com/pyenv/pyenv
+   
    # Set local Python version using pyenv
-   pyenv local 3.10.6
+   pyenv install 3.10.6
+   pyenv shell 3.10.6
    
    # Create virtual environment
-   python -m venv venv
+   brew install pyenv-virtualenv
+   pyenv virtualenv 3.10.6 ai-coder
+   
    
    # Activate virtual environment
-   # On Unix/MacOS:
-   source venv/bin/activate
-   # On Windows:
-   # venv\Scripts\activate
+   # On MacOS:
+   exec "$SHELL"
+   pyenv activate ai-coder
    ```
 
 3. **Install dependencies**
