@@ -169,3 +169,23 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Virtual Environment
+.env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+pycache/
+pylint/
+pylint.log
+pylint.rc
+pylint.d/
+
+ai-coder
